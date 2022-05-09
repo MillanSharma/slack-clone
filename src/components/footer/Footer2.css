@@ -1,0 +1,41 @@
+
+.container1{
+    display: flex;
+    width: 80%;
+    margin: 20px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    margin-top: 300px;
+    margin-left: 100px;
+    margin-right: auto;
+    
+}
+.left__container{
+  display: flex;
+  align-items: flex-start;
+  margin: 10px;
+}
+.left__container>h5{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.right__container{
+ display: flex;
+ align-items: center;
+}
+.right__container>h4{
+    color: rgb(88, 88, 236);
+    margin-right: 8px;
+    cursor: pointer;
+}
+.right__container>img{
+    margin: 10px;
+}
+.right__container__img{
+    object-fit: contain;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+.container1>h6{
+}
